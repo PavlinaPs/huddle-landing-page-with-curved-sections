@@ -1,0 +1,72 @@
+@use 'variables';
+@use 'reset';
+
+.build {
+    margin-top: 5.2rem;
+
+    a {
+        text-decoration: none;
+    }
+
+    @media (min-width: variables.$desktop) {
+        margin-top: 8.2rem;
+        padding: 0 8rem;
+    }
+}
+
+.build__title {
+    font-family: variables.$ff-heading;
+    font-size: variables.$fs-heading-mobile;
+    font-weight: variables.$fw-bold;
+    line-height: 1.5;
+    text-align: center;
+
+    @media (min-width: variables.$desktop) {
+        font-size: variables.$fs-heading-desktop;
+    }
+}
+
+.build__text {
+    margin-top: 2.2rem;
+    line-height: 1.55;
+    text-align: center;
+
+    @media (min-width: variables.$desktop) {
+        padding: 0 20rem;
+        line-height: 1.45;
+        letter-spacing: -0.8px;
+    }
+}
+
+.build__button-get {
+    width: 20rem;
+    margin: 4.8rem auto 0;
+    padding: 1.15rem 0;
+    font-size: variables.$fs-button-get-mobile;
+    font-weight: variables.$fw-bold;
+    color: variables.$clr-white;
+    text-align: center;
+    background-color: variables.$clr-pink;
+    border-radius: 2.1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem variables.$clr-bs;
+
+    @media (min-width: variables.$desktop) {
+        width: 40rem;
+        padding: 2.5rem 0;
+        font-size: variables.$fs-button-get-desktop;
+        font-weight: variables.$fw-semiBold;
+        border-radius: 4rem;
+    }
+}
+
+.build__button-get:hover {
+    background-color: variables.$clr-light-pink;
+}
+
+.build__illustration {
+    margin-top: 10.1rem;
+
+    @media (min-width: variables.$desktop) {
+        margin-top: 11rem;
+    }
+}

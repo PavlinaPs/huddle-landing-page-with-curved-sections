@@ -1,0 +1,12 @@
+@use 'variables';
+@use 'reset';
+
+.attribution {
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

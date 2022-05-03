@@ -1,0 +1,52 @@
+@use 'variables';
+@use 'reset';
+
+
+.landing__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.3rem;
+
+    a {
+        text-decoration: none;
+    }
+
+    @media (min-width: variables.$desktop) {
+        padding: 7.6rem 6.2rem 2.3rem 8rem;
+    }
+}
+
+.header__logo {
+    width: 9.6rem;
+    margin-top: 0.5rem;
+
+    @media (min-width: variables.$desktop) {
+        width: 23.8rem;
+        margin-top: 0;
+    }
+}
+
+.header__button-try {
+    width: 8.2rem;
+    padding: 0.4rem 0;
+    font-family: variables.$ff-body;
+    font-size: variables.$fs-button-try-mobile;
+    font-weight: variables.$fw-semiBold;
+    color: variables.$clr-pink;
+    text-align: center;
+    border: 0.1rem solid variables.$clr-pink;
+    border-radius: 1.35rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem variables.$clr-bs;
+
+    @media (min-width: variables.$desktop) {
+        width: 13.7rem;
+        padding: 0.7rem 0;
+        font-size: variables.$fs-button-try-desktop;
+        border-radius: 3rem;
+    }
+}
+
+.header__button-try:hover {
+    color: variables.$clr-light-pink;
+    border: 0.1rem solid variables.$clr-light-pink;
+}

@@ -1,0 +1,31 @@
+// primary colors
+$clr-pink: hsl(322, 100%, 66%);
+$clr-light-pink: hsl(321, 100%, 78%);
+$clr-red: hsl(0, 100%, 63%);
+
+// neutral colors
+$clr-very-dark-cyan: hsl(192, 100%, 9%);
+$clr-very-pale-blue: hsl(207, 100%, 98%);
+$clr-white: hsl(0, 0%, 100%);
+
+$clr-bs: hsla(192, 100%, 9%, 0.1);
+
+// typography
+$ff-body: 'Open Sans', sans-serif;
+$ff-heading: 'Poppins', sans-serif;
+
+$fs-normal-mobile: 1.35rem;
+$fs-normal-desktop: 2.1rem;
+$fs-button-try-mobile: 1rem;
+$fs-button-try-desktop: 1.6rem;
+$fs-button-get-mobile: 1.2rem;
+$fs-button-get-desktop: 2rem;
+$fs-heading-mobile: 2.4rem;
+$fs-heading-desktop: 4.8rem;
+
+$fw-regular: 400;
+$fw-semiBold: 600;
+$fw-bold: 700;
+
+// breaking point
+$desktop: 100em;

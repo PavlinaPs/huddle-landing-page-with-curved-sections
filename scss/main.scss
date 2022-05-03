@@ -1,0 +1,31 @@
+@use 'variables';
+@use 'reset';
+
+@use 'attribution';
+@use 'header';
+@use 'build';
+
+
+.landing__container {
+    width: 37.5rem;
+    margin: 0 auto;
+    font-family: variables.$ff-body;
+    font-size: variables.$fs-normal-mobile;
+    font-weight: variables.$fw-semiBold;
+    color: variables.$clr-very-dark-cyan;
+    border: 1px solid red;
+
+    @media (min-width: variables.$desktop) {
+        width: 144rem;
+        font-size: variables.$fs-normal-desktop;
+    }
+}
+
+.landing__body {
+    padding: 4rem;
+
+    @media (min-width: variables.$desktop) {
+        padding: 12.4rem;
+    }
+}
+
