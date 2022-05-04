@@ -4,6 +4,7 @@
 @use 'attribution';
 @use 'header';
 @use 'build';
+@use 'stats';
 
 
 .landing__container {
@@ -22,7 +23,7 @@
 }
 
 .landing__body {
-    padding: 4rem;
+    padding: 3.6rem;
 
     @media (min-width: variables.$desktop) {
         padding: 12.4rem;

@@ -5,6 +5,8 @@ $clr-red: hsl(0, 100%, 63%);
 
 // neutral colors
 $clr-very-dark-cyan: hsl(192, 100%, 9%);
+$clr-very-dark-cyan-a: hsla(192, 100%, 9%, 0.5);
+
 $clr-very-pale-blue: hsl(207, 100%, 98%);
 $clr-white: hsl(0, 0%, 100%);
 
@@ -22,6 +24,11 @@ $fs-button-get-mobile: 1.2rem;
 $fs-button-get-desktop: 2rem;
 $fs-heading-mobile: 2.4rem;
 $fs-heading-desktop: 4.8rem;
+$fs-stats-mobile: 6rem;
+$fs-stats-mess-mobile: 5.3rem;
+$fs-stats-desktop: 9.5rem;
+$fs-stats-desc-mobile: 1.5rem;
+$fs-stats-desc-desktop: 2.4rem;
 
 $fw-regular: 400;
 $fw-semiBold: 600;
