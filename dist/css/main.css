@@ -493,6 +493,56 @@ img {
   }
 }
 
+.ready {
+  margin-top: 6.7rem;
+}
+@media (min-width: 100em) {
+  .ready {
+    margin-top: 16rem;
+  }
+}
+
+.ready__title {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  text-align: center;
+}
+@media (min-width: 100em) {
+  .ready__title {
+    font-size: 4rem;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.ready__button-get {
+  width: 20rem;
+  margin: 3.8rem auto 0;
+  padding: 1.15rem 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  background-color: hsl(322deg, 100%, 66%);
+  border-radius: 2.1rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem hsla(192deg, 100%, 9%, 0.1);
+}
+@media (min-width: 100em) {
+  .ready__button-get {
+    width: 40rem;
+    padding: 2.5rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 4rem;
+  }
+}
+
+.ready__button-get:hover {
+  background-color: hsl(321deg, 100%, 78%);
+}
+
 .landing__container {
   width: 37.5rem;
   margin: 0 auto;

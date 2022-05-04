@@ -1,0 +1,49 @@
+@use 'variables';
+@use 'reset';
+
+.ready {
+    margin-top: 6.7rem;
+
+    @media (min-width: variables.$desktop) {
+        margin-top: 16rem;
+    }
+}
+
+.ready__title {
+    font-family: variables.$ff-heading;
+    font-size: variables.$fs-heading-mobile;
+    text-align: center;
+
+    @media (min-width: variables.$desktop) {
+        font-size: variables.$fs-heading-section-desktop;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.ready__button-get {
+    width: 20rem;
+    margin: 3.8rem auto 0;
+    padding: 1.15rem 0;
+    font-size: variables.$fs-button-get-mobile;
+    font-weight: variables.$fw-bold;
+    color: variables.$clr-white;
+    text-align: center;
+    background-color: variables.$clr-pink;
+    border-radius: 2.1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem variables.$clr-bs;
+
+    @media (min-width: variables.$desktop) {
+        width: 40rem;
+        padding: 2.5rem 0;
+        font-size: variables.$fs-button-get-desktop;
+        font-weight: variables.$fw-semiBold;
+        border-radius: 4rem;
+    }
+}
+
+.ready__button-get:hover {
+    background-color: variables.$clr-light-pink;
+}
