@@ -3,13 +3,14 @@
 
 .build {
     margin-top: 5.2rem;
+    padding: 12.4 16rem;
 
     a {
         text-decoration: none;
     }
 
     @media (min-width: variables.$desktop) {
-        margin-top: 8.2rem;
+        margin-top: 20.6rem;
         padding: 0 8rem;
     }
 }
@@ -32,7 +33,7 @@
     text-align: center;
 
     @media (min-width: variables.$desktop) {
-        padding: 0 20rem;
+        padding: 0 32rem;
         line-height: 1.45;
         letter-spacing: -0.8px;
     }
@@ -68,5 +69,7 @@
 
     @media (min-width: variables.$desktop) {
         margin-top: 11rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

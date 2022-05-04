@@ -12,7 +12,7 @@
     @media (min-width: variables.$desktop) {
         flex-direction: row;
         gap: 35rem;
-        margin-top: 15.6rem;
+        margin-top: 15.8rem;
         padding: 0 0 0 1rem;
     }
 }
@@ -71,18 +71,32 @@
 }
 
 .stats__number--communities::before {
-    width: 5rem;
-    height: 5rem;
-    top: -4.5rem;
-    left: 0;
+    width: 3rem;
+    height: 3rem;
+    top: -2.8rem;
+    left: 3rem;
     background-image: url(../../images/icon-communities.svg);
+
+    @media (min-width: variables.$desktop) {
+        width: 5rem;
+        height: 5rem;
+        top: -4.4rem;
+        left: 0;
+    }
 }
 
 .stats__number--messages::before {
-    width: 4rem;
-    height: 4rem;
-    top: -3.7rem;
-    left: 0;
+    width: 2.4rem;
+    height: 2.4rem;
+    top: -2.3rem;
+    left: 3.5rem;
     background-image: url(../../images/icon-messages.svg);
+
+    @media (min-width: variables.$desktop) {
+        width: 4rem;
+        height: 4rem;
+        top: -3.7rem;
+        left: 0;
+    }
 }
 

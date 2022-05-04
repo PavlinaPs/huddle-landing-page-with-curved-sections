@@ -5,6 +5,7 @@
 @use 'header';
 @use 'build';
 @use 'stats';
+@use 'grow';
 
 
 .landing__container {
@@ -22,11 +23,4 @@
     }
 }
 
-.landing__body {
-    padding: 3.6rem;
-
-    @media (min-width: variables.$desktop) {
-        padding: 12.4rem;
-    }
-}
 
