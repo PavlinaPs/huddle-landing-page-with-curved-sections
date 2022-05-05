@@ -6,9 +6,7 @@
 
     @media (min-width: variables.$desktop) {
         margin-top: 12.5rem;
-
     }
-    border: 1px solid yellow;
 }
 
 .grow__bg-desktop--top,
@@ -18,6 +16,11 @@
     @media (min-width: variables.$desktop) {
         display: block;
     }
+}
+
+.grow__bg-mobile--top,
+.grow__bg-mobile--bottom {
+    width: 100%;
 }
 
 @media (min-width: variables.$desktop) {
@@ -33,10 +36,10 @@
     @media (min-width: variables.$desktop) {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
         grid-template-areas: 
             ' text img';
         padding: 0 9.5rem;
-        
     }
 }
 
@@ -66,7 +69,6 @@
 
     @media (min-width: variables.$desktop) {
         font-size: variables.$fs-heading-section-desktop;
-
     }
 }
 
@@ -82,23 +84,3 @@
         letter-spacing: -0.5px;
     }
 }
-
-
-// .grow::before {
-//     content: '';
-//     position: absolute;
-//     top: 0rem;
-//     width: 37.5rem;
-//     background-image: url(../../images/bg-section-top-mobile-1.svg);
-//     background-repeat: no-repeat;
-// }
-
-// .grow::after {
-//     content: '';
-//     position: absolute;
-//     bottom: 0rem;
-//     width: 37.5rem;
-//     height: 5rem;
-//     background-image: url(../../images/bg-section-bottom-mobile-1.svg);
-//     background-repeat: no-repeat;
-// }

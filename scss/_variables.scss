@@ -7,33 +7,38 @@ $clr-red: hsl(0, 100%, 63%);
 $clr-very-dark-cyan: hsl(192, 100%, 9%);
 $clr-very-dark-cyan-a: hsla(192, 100%, 9%, 0.5);
 $clr-light-cyan: hsl(192, 65%, 61%);
-
 $clr-very-pale-blue: hsl(207, 100%, 98%);
 $clr-white: hsl(0, 0%, 100%);
 $clr-black: hsl(0, 0%, 0%);
 
 $clr-bs: hsla(192, 100%, 9%, 0.1);
 
-// typography
+// font families
 $ff-body: 'Open Sans', sans-serif;
 $ff-heading: 'Poppins', sans-serif;
 
+// font sizes
 $fs-normal-mobile: 1.35rem;
 $fs-normal-desktop: 2.1rem;
+
 $fs-button-try-mobile: 1rem;
 $fs-button-try-desktop: 1.6rem;
 $fs-button-get-mobile: 1.2rem;
 $fs-button-get-desktop: 2rem;
+
 $fs-heading-mobile: 2.4rem;
 $fs-heading-desktop: 4.8rem;
+
 $fs-stats-mobile: 6rem;
 $fs-stats-mess-mobile: 5.3rem;
 $fs-stats-desktop: 9.5rem;
 $fs-stats-desc-mobile: 1.5rem;
 $fs-stats-desc-desktop: 2.4rem;
+
 $fs-heading-section-mobile: 2rem;
 $fs-heading-section-desktop: 4rem;
 $fs-text-section-desktop: 1.65rem;
+
 $fs-error: 1.15rem;
 $fs-subscribe: 1.45rem;
 $fs-contacts-desktop: 1.35rem;
@@ -42,9 +47,10 @@ $fs-social-mobile: 2.5rem;
 $fs-social-desktop: 3.5rem;
 $fs-newsletter-desktop: 2.3rem;
 
+// font weights
 $fw-regular: 400;
 $fw-semiBold: 600;
 $fw-bold: 700;
 
 // breaking point
-$desktop: 100em;
+$desktop: 65em;

@@ -4,11 +4,10 @@
 .flowing {
     margin-top: 13.9rem;
 
-    border: 1px solid yellowgreen;
-
     @media (min-width: variables.$desktop) {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
         margin-top: 21.5rem;
         padding: 0 6.5rem 0 8.5rem;
     }
@@ -40,7 +39,6 @@
 
     @media (min-width: variables.$desktop) {
         font-size: variables.$fs-heading-section-desktop;
-
     }
 }
 

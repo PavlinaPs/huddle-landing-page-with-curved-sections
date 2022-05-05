@@ -17,6 +17,10 @@
     }
 }
 
+.footer__bg-mobile {
+    width: 100%;
+}
+
 @media (min-width: variables.$desktop) {
     .footer__bg-mobile {
         display: none;

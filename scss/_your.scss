@@ -6,9 +6,7 @@
 
     @media (min-width: variables.$desktop) {
         margin-top: 12.5rem;
-
     }
-    border: 1px solid yellow;
 }
 
 .your__bg-desktop--top,
@@ -18,6 +16,11 @@
     @media (min-width: variables.$desktop) {
         display: block;
     }
+}
+
+.your__bg-mobile--top,
+.your__bg-mobile--bottom {
+    width: 100%;
 }
 
 @media (min-width: variables.$desktop) {
@@ -33,6 +36,7 @@
     @media (min-width: variables.$desktop) {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
         grid-template-areas: 
             ' text img';
         padding: 0 9.5rem;

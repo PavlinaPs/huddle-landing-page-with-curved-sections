@@ -17,10 +17,13 @@
   
   <link rel="stylesheet" href="./dist/css/main.css">  
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
-  
+
+  <script src="./validation.js" defer></script>
 </head>
+
 <body>
   <div class="landing__container">
+    <!-- header -->
     <header class="landing__header">
       <a href="#">
         <img class="header__logo" src="./images/logo.svg" alt="Huddle logo">
@@ -32,6 +35,7 @@
 
     <main class="landing__body">
 
+      <!-- section Build -->
       <section class="build">
         <h1 class="build__title">Build The Community Your Fans Will Love</h1>
         <p class="build__text">
@@ -43,6 +47,7 @@
         <img class="build__illustration" src="./images/screen-mockups.svg" alt=""></img>
       </section>
 
+      <!-- section stats -->
       <section class="stats">
         <div>
           <div class="stats__number stats__number--communities">1.4k+</div>
@@ -54,6 +59,7 @@
         </div>
       </section>
 
+      <!-- section Grow -->
       <section class="grow">
         <img class="grow__bg-mobile--top" src="./images/bg-section-top-mobile-1.svg" alt="">
         <img class="grow__bg-desktop--top" src="./images/bg-section-top-desktop-1.svg" alt="">
@@ -71,6 +77,7 @@
         <img class="grow__bg-desktop--bottom" src="./images/bg-section-bottom-desktop-1.svg" alt="">
       </section>
 
+      <!-- section Following -->
       <section class="flowing">
           <img class="flowing__illustration" src="./images/illustration-flowing-conversation.svg" alt="">
 
@@ -81,6 +88,7 @@
           </div>
       </section>
 
+      <!-- section Your users -->
       <section class="your">
         <img class="your__bg-mobile--top" src="./images/bg-section-top-mobile-2.svg" alt="">
         <img class="your__bg-desktop--top" src="./images/bg-section-top-desktop-2.svg" alt="">
@@ -99,6 +107,7 @@
         <img class="grow__bg-desktop--bottom" src="./images/bg-section-bottom-desktop-2.svg" alt="">
       </section>
 
+      <!-- section ready / CTA -->
       <section class="ready">
         <h2 class="ready__title">Ready To Build Your Community?</h2>
         <a href="#">
@@ -108,27 +117,30 @@
 
     </main>
 
+    <!-- footer -->
     <footer class="landing__footer">
       <img class="footer__bg-mobile" src="./images/bg-footer-top-mobile.svg" alt="">
       <img class="footer__bg-desktop" src="./images/bg-footer-top-desktop.svg" alt="">
 
       <div class="footer__content-container">
 
+        <!-- newsletter -->
         <section class="footer__newsletter-container">
           <h3 class="footer__newsletter__title">Newsletter</h3>
           <p class="footer__newsletter__text">
             To receive tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address
           </p>
-
-          <form action="" class="footer__subscribe-form" novalidate>
-            <div class="footer__input-holder">
-              <input class="footer__input" type="email" name="email" id="email" aria-label="enter email address">
+              <!-- sign-up form -->
+          <form action="" id="form" class="footer__subscribe-form" novalidate>
+            <div id="input-holder" class="footer__input-holder">
+              <input id="email" class="footer__input" type="email" name="email" aria-label="enter email address">
               <div class="error-message">Check your email please</div>
             </div>
             <button class="footer__subscribe" type="submit">Subscribe</button>
           </form>
         </section>
 
+        <!-- contacts -->
         <section class="footer__contacts-container">
           <a href="#">
             <img class="footer__contacts__logo" src="./images/logo-white.svg" alt="Huddle logo">
@@ -148,7 +160,7 @@
             <img src="./images/icon-email.svg" alt="email" aria-label="email address">
             <div>example@huddle.com</div>
           </div>
-
+              <!-- social list -->
           <ul class="footer__contacts__social-container">
             <li>
               <a href="#"><i aria-label="facebook" class="fa-brands fa-facebook-square"></i></a>
@@ -161,14 +173,12 @@
             </li>
           </ul>
         </section>
-
       </div>
 
     </footer>
   
   </div>
    
-
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
