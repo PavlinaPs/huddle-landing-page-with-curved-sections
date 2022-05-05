@@ -12,6 +12,7 @@
 .grow__bg-desktop--top,
 .grow__bg-desktop--bottom {
     display: none;
+    width: 100%;
 
     @media (min-width: variables.$desktop) {
         display: block;

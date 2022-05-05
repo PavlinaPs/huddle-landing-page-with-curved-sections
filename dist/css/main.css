@@ -291,6 +291,7 @@ img {
 .grow__bg-desktop--top,
 .grow__bg-desktop--bottom {
   display: none;
+  width: 100%;
 }
 @media (min-width: 65em) {
   .grow__bg-desktop--top,
@@ -440,6 +441,7 @@ img {
 .your__bg-desktop--top,
 .your__bg-desktop--bottom {
   display: none;
+  width: 100%;
 }
 @media (min-width: 65em) {
   .your__bg-desktop--top,
@@ -580,6 +582,7 @@ a {
 
 .footer__bg-desktop {
   display: none;
+  width: 100%;
 }
 @media (min-width: 65em) {
   .footer__bg-desktop {
