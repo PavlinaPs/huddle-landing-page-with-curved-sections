@@ -543,6 +543,237 @@ a {
   background-color: hsl(321deg, 100%, 78%);
 }
 
+.landing__footer {
+  margin-top: 25rem;
+}
+@media (min-width: 100em) {
+  .landing__footer {
+    margin-top: 17.5rem;
+  }
+}
+
+.footer__bg-desktop {
+  display: none;
+}
+@media (min-width: 100em) {
+  .footer__bg-desktop {
+    display: block;
+  }
+}
+
+@media (min-width: 100em) {
+  .footer__bg-mobile {
+    display: none;
+  }
+}
+.footer__content-container {
+  padding: 5.8rem 2.7rem 0;
+  color: hsl(0deg, 0%, 100%);
+  line-height: 1.8;
+  background-color: hsl(192deg, 100%, 9%);
+}
+@media (min-width: 100em) {
+  .footer__content-container {
+    padding: 12.2rem 11.4rem 0 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "contacts newsletter";
+    font-size: 1.35rem;
+  }
+}
+
+@media (min-width: 100em) {
+  .footer__newsletter-container {
+    grid-area: newsletter;
+    margin-left: 8rem;
+  }
+}
+.footer__newsletter__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+@media (min-width: 100em) {
+  .footer__newsletter__title {
+    font-size: 2.3rem;
+  }
+}
+
+.footer__newsletter__text {
+  margin-top: 1.2rem;
+  padding-right: 1.4rem;
+}
+@media (min-width: 100em) {
+  .footer__newsletter__text {
+    padding-right: 18rem;
+  }
+}
+
+@media (min-width: 100em) {
+  .footer__subscribe-form {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3.6rem;
+    margin-top: 3.6rem;
+  }
+}
+@media (min-width: 100em) {
+  .footer__input-holder {
+    width: 100%;
+  }
+}
+.footer__input {
+  margin-top: 3rem;
+  width: 100%;
+  height: 5rem;
+  padding-left: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  border: 0.1rem solid hsl(192deg, 100%, 9%);
+  border-radius: 0.8rem;
+}
+@media (min-width: 100em) {
+  .footer__input {
+    margin-top: 0;
+  }
+}
+
+.footer__input:focus,
+.footer__input:active {
+  outline: none;
+  border: 0.1rem solid hsl(322deg, 100%, 66%);
+}
+
+.footer__input-holder.error .footer__input {
+  border: 0.1rem solid hsl(0deg, 100%, 63%);
+}
+
+.error-message {
+  display: none;
+}
+
+.footer__input-holder.error .error-message {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 1.15rem;
+  color: hsl(0deg, 100%, 63%);
+}
+
+.footer__subscribe {
+  float: right;
+  height: 5rem;
+  width: 16rem;
+  margin-top: 1.4rem;
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: hsl(0deg, 0%, 100%);
+  letter-spacing: 0.1rem;
+  background-color: hsl(322deg, 100%, 66%);
+  border: 0.1rem solid hsl(192deg, 100%, 9%);
+  border-radius: 0.8rem;
+}
+.footer__subscribe:hover {
+  background-color: hsl(321deg, 100%, 78%);
+}
+@media (min-width: 100em) {
+  .footer__subscribe {
+    margin-top: 0;
+    width: 27.5rem;
+  }
+}
+
+.footer__contacts-container {
+  margin-top: 16.6rem;
+}
+@media (min-width: 100em) {
+  .footer__contacts-container {
+    grid-area: contacts;
+    margin-top: 0;
+  }
+}
+
+.footer__contacts__logo {
+  width: 20rem;
+  margin-left: 0.3rem;
+}
+@media (min-width: 100em) {
+  .footer__contacts__logo {
+    width: 24rem;
+  }
+}
+
+.footer__contacts__text {
+  margin-top: 1.6rem;
+}
+@media (min-width: 100em) {
+  .footer__contacts__text {
+    margin-top: 3rem;
+    padding-right: 28rem;
+  }
+}
+
+.footer__contacts__phone-container,
+.footer__contacts__email-container,
+.footer__contacts__social-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 0.4rem;
+}
+@media (min-width: 100em) {
+  .footer__contacts__phone-container,
+.footer__contacts__email-container,
+.footer__contacts__social-container {
+    font-size: 1.6rem;
+  }
+}
+
+.footer__contacts__phone-container {
+  margin-top: 4rem;
+}
+.footer__contacts__phone-container img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+@media (min-width: 100em) {
+  .footer__contacts__phone-container {
+    margin-top: 2rem;
+  }
+}
+
+.footer__contacts__email-container {
+  margin-top: 1.6rem;
+}
+@media (min-width: 100em) {
+  .footer__contacts__email-container {
+    margin-top: 1rem;
+  }
+}
+
+.footer__contacts__social-container {
+  margin-top: 4.5rem;
+  padding-bottom: 4rem;
+}
+@media (min-width: 100em) {
+  .footer__contacts__social-container {
+    gap: 2.3rem;
+    margin-top: 7.6rem;
+    padding-bottom: 10rem;
+  }
+}
+.footer__contacts__social-container i {
+  font-size: 2.5rem;
+  color: hsl(0deg, 0%, 100%);
+}
+@media (min-width: 100em) {
+  .footer__contacts__social-container i {
+    font-size: 3.5rem;
+  }
+}
+.footer__contacts__social-container i:hover {
+  color: hsl(192deg, 65%, 61%);
+}
+
 .landing__container {
   width: 37.5rem;
   margin: 0 auto;
